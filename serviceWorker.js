@@ -70,6 +70,9 @@ self.addEventListener('fetch', e => {
 
     let respuesta;
 
+    console.log("url del fetch: ", e.request.url);
+    console.log("Valor de api en fetch: ", api);
+    console.log("Valor de include sobre api: ", e.request.url.includes(api));
     if (e.request.url.includes(api)) {
 
         // return respuesta????
