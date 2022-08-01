@@ -2,7 +2,7 @@ let url = window.location.href;
 
 let environment = {
     prod: {
-        urlBase: "http://localhost/ITTL/pwa/subirPruebaDos/",
+        urlBase: "https://ittlsa.github.io/pwa/",
         api: "https://reqres.in/api/users"
     },
     dev: {
