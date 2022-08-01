@@ -21,8 +21,13 @@ if (url.includes(environment.prod.urlBase)) {
 
 //acepta service worker el navegador
 if (navigator.serviceWorker) {
-    navigator.serviceWorker.register(urlBase + 'serviceWorker.js');
-    Notification.requestPermission().then(x => console.log);
+    navigator.serviceWorker.register(urlBase + 'serviceWorker.js').then(x => {
+
+        Notification.requestPermission().then(x => {
+            alert("Permiso de notificacion: " + x);
+        });
+    });
+
 }
 
 
