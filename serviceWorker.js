@@ -23,7 +23,6 @@ const api = "https://reqres.in/api/users";
     'manifest.json'
 ];*/
 const APP_SHELL = [
-    '/',
     '/index.html',
     '/css/estilo.css',
     '/img/favicon.ico',
