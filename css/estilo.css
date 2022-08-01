@@ -1,0 +1,80 @@
+.colorBackGround {
+    background-color: #eacb00 !important;
+}
+
+.fab {
+    width: 70px;
+    height: 70px;
+    background-color: #3498db;
+    border-radius: 50%;
+    box-shadow: 0 2px 6px 0 #666;
+    transition: all 0.1s ease-in-out;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+}
+
+.fab-marker {
+    width: 50px;
+    height: 50px;
+    /* background-color: #00ac09;*/
+    border-radius: 50%;
+    box-shadow: 0 2px 6px 0 #666;
+    transition: all 0.1s ease-in-out;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    line-height: 55px;
+    position: relative;
+    left: 40%;
+    /*left: 20px;
+    bottom: 50px;*/
+}
+
+.fab-photo {
+    width: 50px;
+    height: 50px;
+    /*background-color: #470494;*/
+    border-radius: 50%;
+    box-shadow: 0 2px 6px 0 #666;
+    transition: all 0.1s ease-in-out;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    line-height: 55px;
+    position: relative;
+    left: 40%;
+    /*left: 80px;
+    bottom: 50px;*/
+}
+
+.fab-wifis {
+    width: 50px;
+    height: 50px;
+    /*background-color: #470494;*/
+    border-radius: 50%;
+    box-shadow: 0 2px 6px 0 #666;
+    transition: all 0.1s ease-in-out;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    line-height: 55px;
+    position: relative;
+    left: 40%;
+    /*left: 80px;
+    bottom: 50px;*/
+}
+
+.fab-wifis img {
+    width: 40px;
+    height: 40px;
+    color: white;
+}
+
+.oculto {
+    display: none !important;
+}
