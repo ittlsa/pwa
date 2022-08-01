@@ -2,10 +2,10 @@
     "theme_color": "#eacb00",
     "background_color": "#eacb00",
     "display": "standalone",
-    "scope": "/",
-    "start_url": "/index.html",
+    "start_url": "index.html",
     "name": "Prueba PWA ITTL",
     "short_name": "PruebaPWA",
+    "orientation": "portrait",
     "icons": [{
             "src": "img/icons/icon-192x192.png",
             "sizes": "192x192",
