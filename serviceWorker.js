@@ -8,19 +8,19 @@ const api = "https://reqres.in/api/users";
 
 const APP_SHELL = [
     '/',
-    'index.html',
-    'css/estilo.css',
-    'img/favicon.ico',
-    'js/index.js',
-    'img/wifi.png',
-    'img/sinwifi.png',
-    'js/camara-class.js',
-    'js/libs/plugins/mdtoast.min.css',
-    'img/icons/icon-192x192.png',
-    'img/icons/icon-256x256.png',
-    'img/icons/icon-384x384.png',
-    'img/icons/icon-512x512.png',
-    'manifest.json'
+    'https://ittlsa.github.io/pwa/index.html',
+    'https://ittlsa.github.io/pwa/css/estilo.css',
+    'https://ittlsa.github.io/pwa/img/favicon.ico',
+    'https://ittlsa.github.io/pwa/js/index.js',
+    'https://ittlsa.github.io/pwa/img/wifi.png',
+    'https://ittlsa.github.io/pwa/img/sinwifi.png',
+    'https://ittlsa.github.io/pwa/js/camara-class.js',
+    'https://ittlsa.github.io/pwa/js/libs/plugins/mdtoast.min.css',
+    'https://ittlsa.github.io/pwa/img/icons/icon-192x192.png',
+    'https://ittlsa.github.io/pwa/img/icons/icon-256x256.png',
+    'https://ittlsa.github.io/pwa/img/icons/icon-384x384.png',
+    'https://ittlsa.github.io/pwa/img/icons/icon-512x512.png',
+    'https://ittlsa.github.io/pwa/manifest.json'
 ];
 
 const APP_SHELL_URL_EXTERNOS = [
