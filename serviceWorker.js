@@ -41,7 +41,7 @@ const APP_SHELL = [
 const APP_SHELL_URL_EXTERNOS = [
     'https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css',
     'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js',
-    'https://use.fontawesome.com/releases/v5.3.1/css/all.css',
+    // 'https://use.fontawesome.com/releases/v5.3.1/css/all.css',
     'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css',
     'https://cdn.jsdelivr.net/npm/pouchdb@7.0.0/dist/pouchdb.min.js'
 ];
@@ -69,6 +69,7 @@ self.addEventListener('install', e => {
 self.addEventListener('fetch', e => {
 
     let respuesta;
+
 
     console.log("url del fetch: ", e.request.url);
     console.log("Valor de api en fetch: ", api);

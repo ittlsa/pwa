@@ -24,7 +24,7 @@ if (navigator.serviceWorker) {
     navigator.serviceWorker.register(urlBase + 'serviceWorker.js').then(x => {
 
         Notification.requestPermission().then(x => {
-            alert("Permiso de notificacion: " + x);
+            alert("Permiso de notificacion v1: " + x);
         });
     });
 
