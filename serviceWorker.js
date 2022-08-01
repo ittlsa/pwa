@@ -24,18 +24,18 @@ const api = "https://reqres.in/api/users";
 ];*/
 const APP_SHELL = [
     'index.html',
-    /*'/css/estilo.css',
-    '/img/favicon.ico',
-    '/js/index.js',
-    '/img/wifi.png',
-    '/img/sinwifi.png',
-    '/js/camara-class.js',
-    '/js/libs/plugins/mdtoast.min.css',
-    '/img/icons/icon-192x192.png',
-    '/img/icons/icon-256x256.png',
-    '/img/icons/icon-384x384.png',
-    '/img/icons/icon-512x512.png',
-    '/manifest.json'*/
+    'css/estilo.css',
+    'img/favicon.ico',
+    'js/index.js',
+    'img/wifi.png',
+    'img/sinwifi.png',
+    'js/camara-class.js',
+    'js/libs/plugins/mdtoast.min.css',
+    'img/icons/icon-192x192.png',
+    'img/icons/icon-256x256.png',
+    'img/icons/icon-384x384.png',
+    'img/icons/icon-512x512.png',
+    'manifest.json'
 ];
 
 const APP_SHELL_URL_EXTERNOS = [
