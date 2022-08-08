@@ -24,7 +24,7 @@ if (navigator.serviceWorker) {
     navigator.serviceWorker.register(urlBase + 'serviceWorker.js').then(x => {
 
         Notification.requestPermission().then(x => {
-            alert("Permiso de notificacion v1: " + x);
+            console.log("permiso de notificacion: ", x);
         });
     });
 
@@ -43,8 +43,24 @@ let btnTomarFoto = $('#tomar-foto-btn');
 let btnEnviar = $('#enviar');
 let divWifi = $('#divWifi');
 let divSinWifi = $('#divSinWifi');
+let escucharCoordenadas = $("#escucharCoordenadas");
 const camara = new Camara($('#player')[0]);
 let fotoTomada = "";
+
+
+
+
+navigator.geolocation.watchPosition(x => {
+
+    var today = new Date();
+
+    // obtener la fecha y la hora
+    var now = today.toLocaleString();
+
+    escucharCoordenadas.append("<p>Fecha: " + now + "</p>");
+    escucharCoordenadas.append("<p>Latitud:" + x.coords.latitude + " - Longitud:" + x.coords.longitude + "</p>");
+});
+
 
 btnUbicacion.on('click', () => {
     //alert("Hola mundo");
