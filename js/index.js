@@ -1,3 +1,28 @@
+//prueba adolfo
+
+window.addEventListener('message', function(event) {
+    /*if(event.origin === 'http://localhost/')
+    {
+      alert('Received message: ' + event.data.message);
+    }
+    else
+    {
+      alert('Origin not allowed!');
+    }*/
+
+    try {
+        alert('Mensaje que me envia adolfo: ' + event.data.message);
+        return event.data.message;
+
+    } catch (e) {
+        return "Catch Error para adolfo";
+
+    }
+
+}, false);
+
+
+
 let url = window.location.href;
 
 let environment = {
